@@ -149,10 +149,40 @@ main section {
 /* resume section */
 .resume-container {
   display: flex;
+  gap: 50px;
 }
 
 .resume-column-title {
-  color:#474747;
+  color: #474747;
   font-size: 30px;
+  font-weight: 700;
+}
 
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-item-institution {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.resume-item-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.resume-column hr{
+  margin: 30px;
+
+}
+
+.download-button{
+  margin-top: 50px;
+  text-align: center;
 }
