@@ -14,16 +14,27 @@ body {
   font-size: 20px;
   font-weight: 700;
   padding: 15px 35px;
- 
-  
 }
 
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+}
 /* nav related styles */
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 0 200px;
+  padding-left: 94px;
 }
 .nav-title {
   color: #181818;
@@ -46,18 +57,54 @@ nav a {
 }
 
 /* Header related style */
-.header{
-    background-color: #FFF8F3;
+.header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+
+  background-repeat: no-repeat;
+  background-position: bottom right, top left;
 }
 
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
+.banner {
+  padding: 30px 30px 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.banner > img{
-    width: 500px;
-    height: 600px;
+.banner > img {
+  width: 500px;
+  height: 600px;
+  /* margin-left: 417px; */
 }
 
+.banner-greeting {
+  color: #474747;
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+.banner-content {
+  width: 600px;
+}
+
+.banner-title {
+  font-size: 85px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  width: 585px;
+}
+
+/* main section */
+
+/* About Section */
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0px;
+}
